@@ -1,0 +1,53 @@
+.pageBody {
+    padding: 50px 50px 50px 250px;
+}
+.statusMessage {
+    padding: 10px;
+    width: 300px;
+}
+.statusMessageTime {
+    color: grey;
+}
+.statusMessageLikeButton {
+    color: #6D84B4;
+    padding-top: 10px;
+}
+.statusMessageLike {
+    background-color: #EDEFF4;
+    border-radius: 2px;
+    margin-top: 2px;
+}
+.author {
+    color: #3B5999;
+    margin-left: 5px;
+    margin-bottom: inherit;
+}
+.messageTime {
+    color: Grey;
+}
+.messageTextBox {
+    width: 10%;
+}
+.chatMessage {
+    width: 300px;
+}
+.chatMessages{
+    width: 80%;
+}
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+table {
+    width: 80%;
+}
+thead, tbody{
+    width: 400px;
+}
+input , textarea{
+    width: 160px;
+}
+.blue {
+    border-radius: 5px;
+    border-color: #3B5999;
+}
