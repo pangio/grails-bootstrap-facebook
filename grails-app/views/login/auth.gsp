@@ -63,12 +63,21 @@
 					<input type='checkbox' class='chk' name='${rememberMeParameter}' id='remember_me'
 					<g:if test='${hasCookie}'>checked='checked'</g:if> />
 				</p>
-				<p>
-					<input type='submit' value='Login' id="login_button" />
-				</p>
+
+                <div style="margin: auto">
+                    <input type='submit' class="btn" value='Login' id="login_button" />
+                </div>
+
+
+				%{--<p>--}%
+					%{--<input type='submit' class="btn" value='Login' id="login_button" />--}%
+                %{--</p>--}%
 			</form>
 			<p>
-			    (Valid user names are graeme, jeff, peter and burt. Password is password.)
+			    (Valid user names are rocky, ali, tyson, and chuck.
+			</p>
+			<p>
+			    Password is pass.)
 			</p>
 		</div>
 	</div>
