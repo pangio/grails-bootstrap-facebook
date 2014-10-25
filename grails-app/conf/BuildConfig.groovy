@@ -38,6 +38,9 @@ grails.project.dependency.resolution = {
         mavenRepo 'http://dist.gemstone.com/maven/release'
         mavenRepo "http://repo.grails.org/grails/core"
 
+        mavenRepo "http://download.java.net/maven/2/"
+        mavenRepo "http://repository.jboss.org/nexus/content/groups/public-jboss/"
+
         grailsPlugins()
         grailsHome()
         mavenLocal()
@@ -79,7 +82,8 @@ grails.project.dependency.resolution = {
         compile ':spring-security-core:1.2.4'
 //        compile ":spring-security-core:2.0-RC3"
 
-        compile ':activemq:0.1'
+//        compile ':activemq:0.1'
+        compile ":activemq:0.4.1"
         compile ':jms:1.3'
         compile ':searchable:0.6.6'
         compile ':pretty-time:2.1.3.Final-1.0.1'
